@@ -8,6 +8,7 @@ import { TemasService } from 'src/app/services/temas.service';
   templateUrl: './logo.component.html',
   styleUrls: ['./logo.component.scss'],
   imports: [IonicModule, CommonModule],
+  standalone: true
 })
 export class LogoComponent  implements OnInit {
 

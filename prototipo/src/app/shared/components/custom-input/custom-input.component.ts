@@ -12,7 +12,8 @@ import { CommonModule } from '@angular/common';
     FormsModule,
     ReactiveFormsModule,
     CommonModule
-  ]
+  ],
+  standalone: true
 })
 export class CustomInputComponent  implements OnInit {
 

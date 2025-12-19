@@ -32,8 +32,8 @@
  * https://ionicframework.com/docs/theming/dark-mode
  */
 
-/* @import "@ionic/angular/css/palettes/dark.always.css"; */
-/* @import "@ionic/angular/css/palettes/dark.class.css"; */
+@import "@ionic/angular/css/palettes/dark.always.css";
+@import "@ionic/angular/css/palettes/dark.class.css";
 @import "@ionic/angular/css/palettes/dark.system.css";
 
 
@@ -45,6 +45,12 @@ ion-content.tema-argentina::part(background) {
   position: relative;
   transform: translateY(-50px);
 }
+
+ion-content {
+  --padding-top: env(safe-area-inset-top);
+  --padding-bottom: env(safe-area-inset-bottom);
+}
+
 
 // -------------------- TEMAS --------------------
 
@@ -84,6 +90,11 @@ ion-content.tema-argentina::part(background) {
 
     ion-icon {
         color: #f5b30d;
+    }
+
+    .signOut{
+        --background: #4d8dff;
+        --color: black;
     }
 }
 
@@ -129,6 +140,7 @@ ion-content.tema-argentina::part(background) {
 
     .signOut{
         --background:white;
+        --color: black;
     }
 
     .btn-rejugar{
@@ -166,6 +178,7 @@ ion-content.tema-argentina::part(background) {
 
     .signOut{
         --background:#e68dbd;
+        --color: black;
     }
 
     .btn-rejugar{

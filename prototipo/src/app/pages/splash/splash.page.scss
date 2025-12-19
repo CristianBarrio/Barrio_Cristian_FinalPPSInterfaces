@@ -17,11 +17,11 @@
 }
 
   h1{
-    font-size: 35px;
+    font-size: 55px;
   }
 
   ion-label{
-    font-size: 35px;
+    font-size: 55px;
   }
 
 .label-superior{
@@ -61,8 +61,12 @@
   background: #031a36;
   color: #ffffff;
   font-family: "DM Serif Text", serif;
-  font-weight: 700; 
+  font-weight: 400; 
   font-style: normal;
+
+  ion-label{
+    font-size: 50px;
+  }
 
   h1{
     color:#e9bc77;

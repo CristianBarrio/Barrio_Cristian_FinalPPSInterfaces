@@ -6,7 +6,8 @@ import { IonicModule } from '@ionic/angular';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  imports: [IonicModule, CommonModule]
+  imports: [IonicModule, CommonModule],
+  standalone: true
 })
 export class HeaderComponent  implements OnInit {
 

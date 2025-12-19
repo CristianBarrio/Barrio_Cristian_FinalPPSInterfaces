@@ -1,3 +1,7 @@
+  ion-content {
+    --keyboard-offset: 0px;
+  }
+  
   .info-artista {
     text-align: center;
     margin-top: 20px;
@@ -66,6 +70,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    margin-top: 20px;
 
     h1{
       font-size: 50px;
@@ -134,6 +139,14 @@
     .elegir-btn{
       --background: #ffd700;
     }
+
+    h1,h2,h3{
+      color: white;
+    }
+
+    .centro-contenedor h1{
+      font-size: 45px; 
+    }
   }
 
   ion-content.tema-festivo::part(background) {
@@ -144,6 +157,10 @@
     font-family: "Creepster", system-ui;
     font-weight: 400;
     font-style: normal;
+
+    h1,h2,h3{
+      color: white;
+    }
 
     ion-toolbar{
       font-family: "Creepster", system-ui;
@@ -200,6 +217,7 @@
       box-shadow: 0 0 15px #fe4e00;
       transition: box-shadow 0.3s;
       overflow: hidden;
+      --color: black;
     }
 
     .elegir-btn:hover {
@@ -276,10 +294,18 @@
       0 0 10px #f5b30d;
     }
 
+    h1,h2,h3{
+      color: white;
+    }
+
     .info-artista h1{
       text-shadow:
       0 0 3px #f5b30d,
       0 0 6px #f5b30d,
       0 0 10px #f5b30d;
+    }
+
+    .elegir-btn{
+      --background: #4d8dff;
     }
   }
